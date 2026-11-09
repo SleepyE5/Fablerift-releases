@@ -23,8 +23,9 @@ administrator password, and no ARM64 Windows, ARM64 Linux, Intel Mac or 32-bit b
 
 ### One-click installers
 
-Two single-file installers are published as well, on the latest release
-([v1.3.4](https://github.com/SleepyE5/Fablerift-releases/releases/tag/v1.3.4)):
+Two single-file installers are published as well, on the
+[v1.3.4](https://github.com/SleepyE5/Fablerift-releases/releases/tag/v1.3.4) release — the newest build of either
+installer, because the two packages are not rebuilt for every version:
 
 | Your computer | Installer |
 |---|---|
@@ -32,7 +33,7 @@ Two single-file installers are published as well, on the latest release
 | Linux, x86_64 | `Fablerift-1.3.4-x86_64.AppImage` — one file: `chmod +x` it and run it. No root and no package manager. |
 
 Each has a `.sha256` file beside it. **An installer is only worth downloading once** — the launcher it puts on your
-machine keeps itself current from then on, so a 1.3.3 install becomes a 1.3.4 install the first time it starts and
+machine keeps itself current from then on, so a 1.3.4 install becomes a 1.3.5 install the first time it starts and
 checks. If you already have Fablerift, you do not need to reinstall for a newer version. Older installer packages stay
 attached to their own release tags if you need a specific one.
 
@@ -47,8 +48,8 @@ The main archive of every release, the hosting kit and both installers have a `.
 folder you downloaded to:
 
 ```sh
-sha256sum  -c Fablerift-v1.3.4-release.zip.sha256      # Linux
-shasum -a 256 -c Fablerift-v1.3.4-release.zip.sha256   # macOS
+sha256sum  -c Fablerift-v<version>-release.zip.sha256      # Linux
+shasum -a 256 -c Fablerift-v<version>-release.zip.sha256   # macOS
 ```
 
 It prints `OK` for each file the checksum covers. `Fablerift-v<version>-release.zip` is everything in one archive —
