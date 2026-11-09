@@ -23,18 +23,18 @@ administrator password, and no ARM64 Windows, ARM64 Linux, Intel Mac or 32-bit b
 
 ### One-click installers
 
-Two single-file installers are published as well, on
-[v1.3.3](https://github.com/SleepyE5/Fablerift-releases/releases/tag/v1.3.3):
+Two single-file installers are published as well, on the latest release
+([v1.3.4](https://github.com/SleepyE5/Fablerift-releases/releases/tag/v1.3.4)):
 
 | Your computer | Installer |
 |---|---|
-| Windows 10 or 11, 64-bit | `Fablerift-1.3.3-win-x64.msi` — per-machine install with no elevation: it puts the game in `%LOCALAPPDATA%\Fablerift` and appears in *Add or remove programs* for your account. |
-| Linux, x86_64 | `Fablerift-1.3.3-x86_64.AppImage` — one file: `chmod +x` it and run it. No root and no package manager. |
+| Windows 10 or 11, 64-bit | `Fablerift-1.3.4-win-x64.msi` — installs with no elevation: it puts the game in `%LOCALAPPDATA%\Fablerift`, so it belongs to the account that plays it. One quirk of Windows Installer on a shared PC: the *Add or remove programs* line is listed for every account even though the game and its removal belong to one, and uninstalling from an account that never installed it just tells you it isn't installed there. |
+| Linux, x86_64 | `Fablerift-1.3.4-x86_64.AppImage` — one file: `chmod +x` it and run it. No root and no package manager. |
 
-**Why they say 1.3.3 when the latest release is newer.** An installer's job ends once the launcher is on your
-machine, and the launcher then keeps itself current — so a fresh 1.3.3 MSI or AppImage is running the newest version
-the first time it starts. New installer packages are published when there is something in them worth shipping, not
-with every release.
+Each has a `.sha256` file beside it. **An installer is only worth downloading once** — the launcher it puts on your
+machine keeps itself current from then on, so a 1.3.3 install becomes a 1.3.4 install the first time it starts and
+checks. If you already have Fablerift, you do not need to reinstall for a newer version. Older installer packages stay
+attached to their own release tags if you need a specific one.
 
 ## Updates
 
