@@ -75,6 +75,15 @@ Telnet players and Mudlet reach the official server at **`mud.fablerift.net`**: 
 `https://play.fablerift.net/mudlet/Fablerift.mpackage` — it adds the buttons, the map panel and the command
 shortcuts, and the game pushes its map and status to Mudlet over GMCP and MSSP.
 
+## Licence
+
+Fablerift is free to play, but it is not open source: all rights are reserved. The [licence](LICENSE) lets you
+play, run your own server and change its game data, make and share mods, and share unchanged copies of these
+downloads. Selling it, sharing changed builds or reverse engineering it needs permission. Sounds and libraries made
+by others keep their own licences, listed in `THIRD-PARTY-NOTICES.md` in every download. Playing on the official
+world is covered by the [terms](https://fablerift.net/terms.html) and the
+[privacy policy](https://fablerift.net/privacy.html).
+
 ## Questions
 
 **EnricoFJS@gmail.com** — server owners and players alike.
