@@ -1,0 +1,34 @@
+Fablerift licence
+
+Copyright (c) 2026 Enrico Sgiarovello. All rights reserved.
+
+Fablerift is free to play, but it is not open source. This covers the Fablerift server, browser client,
+desktop app, launcher, Mudlet package and the game content that ships with them (the files in Data/).
+
+You may, free of charge:
+
+1. Download, install and play Fablerift.
+2. Run your own Fablerift server, privately or for other people, and change its game data (rooms, items,
+   creatures and other files in Data/) for your own world.
+3. Make mods and content packs that load through Data/mods, and share them. What you write in them is yours.
+4. Share unchanged copies of the official downloads, as long as this licence and EULA.txt stay with them.
+
+You may not, without written permission:
+
+- sell, rent or sublicense the software, or charge for it or for access to a server running it;
+- copy, change or share the software other than as allowed above, or share a changed build;
+- decompile, disassemble or reverse engineer it, except where the law allows this despite this licence;
+- remove or change copyright or licence notices;
+- use the Fablerift name or logo in a way that suggests your server, mod or build is official.
+
+Some parts, such as sounds and libraries, belong to others and are covered by their own licences, listed in
+THIRD-PARTY-NOTICES.md. Nothing here limits what those licences allow.
+
+The software is provided as it is, without warranty of any kind. To the extent the law allows, the author is
+not liable for any loss or damage from using it. Nothing in this licence takes away rights you have under
+consumer law that cannot be excluded, including under the Australian Consumer Law.
+
+This licence ends automatically if you break it. When it ends, stop using the software and delete your copies.
+It is governed by the law of Queensland, Australia.
+
+Questions or permission requests: EnricoFJS@gmail.com
